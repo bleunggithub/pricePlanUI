@@ -2,6 +2,8 @@
 
 Deployed on https://brave-jackson-338d8d.netlify.app/
 
+<img src="https://github.com/bleunggithub/pricePlanUI/blob/v1/screenshot.png" width="600"/>
+
 #### Installation
 
 - Clone the repo

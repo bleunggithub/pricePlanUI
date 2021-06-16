@@ -30,14 +30,16 @@ export const MatchRate = ({listOfKeys, plans}) => {
     const premiumPlanMatchRate = getPremiumPlanMatchRate()
 
     return (
-        <div className="flex w-full border-t border-darkGrey pt-10 items-center">
+        <div className="matchRate-container">
             <div className="w-1/3">
                 <p>Matching</p>
             </div>
-            <div className={`w-1/3 text-center px-2 ${standardPlanMatchRate > premiumPlanMatchRate && "text-green font-semibold text-lg "}`}>
+            <div
+                className={`matchRate-text ${standardPlanMatchRate > premiumPlanMatchRate && "matchRate-text-highlight"}`}>
                 {standardPlanMatchRate} % of your needs
             </div>
-            <div className={`w-1/3 text-center px-2 ${premiumPlanMatchRate > standardPlanMatchRate  && "text-green font-semibold text-lg "}`}>
+            <div
+                className={`matchRate-text ${premiumPlanMatchRate > standardPlanMatchRate && "matchRate-text-highlight"}`}>
                 100 % of your needs{premiumPlanMatchRate > 100 && (<p className="font-semibold">and more</p>)}
             </div>
         </div>

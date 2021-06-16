@@ -16,20 +16,20 @@ export const Results = () => {
 
     return (
         <>
-        <div className="flex flex-col justify-center w-full rounded p-5 bg-white md:border md:border-lightGrey md:w-3/5 md:ml-6">
-            <div className="flex flex-row border-b border-lightGrey pb-6">
+        <div className="results-outer-container">
+            <div className="results-planName-container">
                 <div className="w-1/3" />
                 <div className="w-1/3">
-                    <p className="text-lg font-semibold text-center">Standard Plan</p>
+                    <p className="results-planName-text">Standard Plan</p>
                 </div>
                 <div className="w-1/3">
-                    <p className="text-lg font-semibold text-center">Premium Plan</p>
+                    <p className="results-planName-text">Premium Plan</p>
                 </div>
             </div>
             <div className="flex flex-row">
                 <div className="w-1/3">
                     {listOfKeys.map(key => (
-                        <div key={key} className="flex items-center my-2 text-sm h-16">
+                        <div key={key} className="results-keys-column">
                             {key}
                         </div>
                     ))}

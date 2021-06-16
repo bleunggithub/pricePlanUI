@@ -17,12 +17,12 @@ export const Indicators = ({ listOfKeys, plans }) => {
                                         <div key={key}>
                                             {
                                                 plan[key] ? (
-                                                    <div className="flex items-center justify-center mt-2 h-16">
+                                                    <div className="indicator-container">
                                                             <BiCheck
                                                                 className={`indicator ${submittedValue && submittedValue[key] ? "text-green" : "text-default"}`} />
                                                     </div>  
                                                 ) : (
-                                                    <div className="flex items-center justify-center mt-2 h-16">
+                                                    <div className="indicator-container">
                                                         <BiX 
                                                         className={`indicator ${!submittedValue ? "text-default" : (submittedValue[key] ? "text-red":"text-green" )}`}/>
                                                     </div>

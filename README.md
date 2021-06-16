@@ -10,7 +10,7 @@ Deployed on https://brave-jackson-338d8d.netlify.app/
 
 #### How to run
 
-- type `cd url_shortener/client/siemens-client` in your terminal to change into the directory
+- type `cd pricePlanUI` in your terminal to change into the directory
 - run `yarn` to install the dependencies
 - to start, run `yarn start` to run the app in development mode
 - the app should pop up on your browser, or if it hasn't, go to `http://localhost:3000/`

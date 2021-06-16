@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { FaRegSadTear } from "react-icons/fa";
-import { useSubmit } from '../Hooks/useSubmit'
+import { useSubmit } from '../util/hooks/useSubmit'
 
 
 export const TextArea = () => {
@@ -29,7 +29,7 @@ export const TextArea = () => {
         <div className="textArea-flex-container">
             <form className="textArea-form" onSubmit={handleSubmit}>
                 <textarea
-                    className="textArea-textArea"
+                    className={`textArea-textArea ${error && ' border-red text-red'}`}
                     value={value}
                     onChange={handleInputChange}
                 />
@@ -43,8 +43,8 @@ export const TextArea = () => {
                 </div>
                 {error && (
                     <p className="textArea-errorMsg">
-                        An Error has occurred, please check your input.
-                        <FaRegSadTear className="inline" />
+                        An Error has occurred, please check your input or reset.{` `} 
+                        <FaRegSadTear className="inline" />{` `}
                     </p>)}
             </form>
         </div>

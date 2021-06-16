@@ -15,6 +15,7 @@ module.exports = {
     },
     backgroundColor: {
       'white':'#ffffffCC',
+      'green': '#A7C957',
     },
     fill: {
       'red': '#EF767A',
@@ -22,7 +23,8 @@ module.exports = {
     },
     borderColor: {
       'darkGrey':'#BDBDBD',
-      'lightGrey': '#E5E5E5'
+      'lightGrey': '#E5E5E5',
+      'red':'#EF767A',
     },
     extend: {},
   },

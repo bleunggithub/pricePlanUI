@@ -1,0 +1,40 @@
+{
+    "plans":[
+        {
+            "General Outpatient": true,
+            "Specialist outpatient": true,
+            "Physiotherapy": false,
+            "Room & Board": true,
+            "Inpatient Specialist’s Fee": true,
+            "Miscellaneous Hospital Expenses": true,
+            "Intensive Care": false,
+            "Hospital Companion Bed": false,
+            "Inpatient Private Nursing Fee": false,
+            "Daily Hospital Cash": false,
+            "Surgeon's Fee": true,
+            "Anaesthetist's Fee": true,
+            "Operating Theatre": true,
+            "Day Case Surgery": false,
+            "Clinical Surgery": false,
+            "Medical Appliances": false
+        },
+        {
+            "General Outpatient": true,
+            "Specialist outpatient": true,
+            "Physiotherapy": true,
+            "Room & Board": true,
+            "Inpatient Specialist’s Fee": true,
+            "Miscellaneous Hospital Expenses": true,
+            "Intensive Care": true,
+            "Hospital Companion Bed": true,
+            "Inpatient Private Nursing Fee": true,
+            "Daily Hospital Cash": true,
+            "Surgeon's Fee": true,
+            "Anaesthetist's Fee": true,
+            "Operating Theatre": true,
+            "Day Case Surgery": true,
+            "Clinical Surgery": true,
+            "Medical Appliances": true
+        }
+    ]
+}

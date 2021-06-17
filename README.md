@@ -27,6 +27,6 @@ Deployed on https://brave-jackson-338d8d.netlify.app/
 - Screen size: mobile & desktop
 - Easily scalable with slight changes to css (horizontal scrolling div for more plans)
 
-###### Credits
+###### Attribution
 
 Photo by <a href="https://unsplash.com/@jonflobrant?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jon Flobrant</a> on <a href="https://unsplash.com/s/photos/health?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
